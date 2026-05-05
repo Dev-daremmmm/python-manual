@@ -1,0 +1,8 @@
+#1b.
+stored_pw = "secret123"
+attempt = input("Enter password: ")
+
+if attempt == stored_pw:
+    print("Access Granted “)
+else:
+    print("Access Denied ")
